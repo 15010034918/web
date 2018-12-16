@@ -1,0 +1,50 @@
+*{
+  padding:0px; margin:0px;
+  color:#fff;
+}
+body{
+ background:url('../images/body04.jpg') no-repeat;
+}
+
+#user_login{
+  border:solid #fff 1px;
+  width:500px;
+  height:300px;
+  margin:200px auto;
+  padding:20px;
+}
+.login_padding{
+  padding:15px;
+  width:300px;
+  height:15px;
+  border:none;
+  padding:10px;
+  margin:5px;
+  margin-top:20px;
+  color:#000;
+}
+#login-btn{
+  background:#f60;
+  width:320px;
+  height:36px;
+  border:none;
+  margin-left:5px;
+  margin-top:20px;
+}
+.forget{
+  margin-left:135px;
+}
+a{
+ text-decoration:none;
+}
+.mem{
+ margin-left:5px;
+}
+.login{
+  margin-left:10px;
+  font-size:25px;
+}
+.reg{
+ margin-left:170px;
+ font-size:25px;
+}

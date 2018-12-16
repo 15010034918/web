@@ -1,0 +1,40 @@
+*{
+  padding:0px; margin:0px;
+}
+body{
+ background:url('../images/body07.jpg') no-repeat;
+}
+#reg{
+ margin:200px auto;
+ border:solid #fff 1px;
+ padding:20px;
+ width:500px;
+}
+.fontcolor{
+  color:#fff;
+}
+#btt_reg{
+  background:#f60;
+  width:320px;
+  height:36px;
+  border:none;
+  margin-left:5px;
+}
+.reg_padding{
+  padding:15px;
+  width:300px;
+  height:15px;
+  border:none;
+  padding:10px;
+  margin:5px;
+}
+#padding{
+ margin-left:5px;
+}
+.sy{
+ text-decoration: none;
+ color:#fff;
+}
+.sy:hover{
+  border-bottom:solid #fff 1px;
+ }
