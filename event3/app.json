@@ -1,0 +1,44 @@
+{
+	"pages": [
+		"pages/index/index",
+		"pages/Info/Info",
+		"pages/about/about",
+		"pages/Recommend/Recommend",
+		"pages/logs/logs",
+		"pages/Strategy/Strategy"
+	],
+	"window": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#336699",
+		"navigationBarTitleText": "旅游通",
+		"navigationBarTextStyle": "black"
+	},
+	"tabBar": {
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "pages/img/000002.png",
+				"selectedIconPath": "pages/img/000004.png"
+			},
+			{
+				"pagePath": "pages/Recommend/Recommend",
+				"text": "推荐行程",
+				"iconPath": "pages/img/0000012.png",
+				"selectedIconPath": "pages/img/0000014.png"
+			},
+			{
+				"pagePath": "pages/Strategy/Strategy",
+				"text": "旅游攻略",
+				"iconPath": "pages/img/0000022.png",
+				"selectedIconPath": "pages/img/0000024.png"
+			},
+			{
+				"pagePath": "pages/about/about",
+				"text": "关于我们",
+				"iconPath": "pages/img/0000042.png",
+				"selectedIconPath": "pages/img/0000044.png"
+			}
+		]
+	}
+}

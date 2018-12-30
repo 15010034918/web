@@ -1,0 +1,7 @@
+.fk-editor-break-word{
+  font-size: 12px;
+  color:rgb(53,53,53);
+  line-height: 23px;
+  padding:20rpx;
+  margin-bottom: 80rpx;
+}

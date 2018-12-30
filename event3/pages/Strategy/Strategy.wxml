@@ -1,0 +1,20 @@
+<view>
+   <view class='img'>
+  <image src='http://127.0.0.1:3000/image/AFEIlbYFEAQYACDinqzWBSis__b_ATDuBTj8AkBm.png' lazy-load='true' class='car'></image>
+  </view>
+  <view class='der'></view>
+  <view class='Strategy'>
+  <view class='Recommendview'>
+    <text>一</text>
+  旅游攻略
+  <text>一</text>
+  </view>
+</view>
+ <view class='mutil-graph-swiperC'>
+ <view class='img-wrapper' wx:for='{{list}}' wx:key='index'>
+   <image src='{{item.img_url}}'></image>
+   <view>{{item.title}}</view>
+   </view>
+</view>
+<view class='footer-area'>亲~我也是有底线的</view>
+  </view>

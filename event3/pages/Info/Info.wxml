@@ -1,0 +1,28 @@
+<view>
+   <view class='img'>
+  <image src='http://127.0.0.1:3000/image/AFEIlbYFEAQYACDeoazWBSj73IC8BzDuBTj8AkBm.png' lazy-load='true' class='car'></image>
+  </view>
+  <view class='der'></view>
+  <view class='Recommendview'>
+    <text>一</text>
+  出境游
+  <text>一</text>
+  </view>
+  <view class='fk-editor-break-word'>
+    <view>行程特色</view>
+    <view>◆独家推出“故宫南湖贵宾专享休息区”，每人赠送一杯咖啡或茶；</view>
+    <view>参观故宫西区【寿康宫】、【慈宁宫】，探“甄嬛”居所；</view>
+    <view>◆精选北京20大知名景点，加游八达岭长城、什刹海、天津欧陆风情街等；</view>
+    <view>◆特别安排乘坐京津城际高速列车穿梭京津两地，用时只需27分钟，更快捷更省时；</view>
+    <view>◆赠送北京全聚德烤鸭、南湖艺麓园包房特色菜；</view>
+    <view>◆全程入住北京橡树林或天方饭店或橄榄树或京天明天或星月亮马或月桂树或世纪黄山或松越或山水时尚或同等标准，享豪华早餐。</view>
+    <text>\n</text>
+    <view>当地优惠</view>
+    <view>◆满70周岁以上的长者，凭有效的老人证及身份证在前台报名时可以享受门票优惠50元/人</view>
+    <view>◆满60周岁-69周岁的长者，凭有效的老人证及身份证在前台报</view>
+    <view>时可以享受门票优惠30元/人</view>
+    <view>【注意】以上优惠只适用于中国大陆公民.</view>
+  </view>
+  <button class='wrapper'>立即咨询</button>
+  <view class='footer-area'>亲~我也是有底线的</view>
+</view>

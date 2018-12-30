@@ -1,0 +1,68 @@
+<view>
+<view class='img'>
+  <image src='http://127.0.0.1:3000/image/AFEIlbYFEAQYACDMl6zWBSjsj97CBDCoBTiQA0Bm.png'  lazy-load='true' class='car'></image>
+  </view>
+  <view class='nav'  bindtap='handle2'>
+     <view>
+    <image src='http://127.0.0.1:3000/image/AFEIlbYFEAQYACD9l6zWBSiC0rVsMNIBOIQCQGY.png'  lazy-load='true' ></image>
+    <view>
+    <text class='img-text  '>出境游 </text>
+    <text class='img-text'>假期出境</text>
+    </view>
+    </view>
+    <view >
+    <image src='http://127.0.0.1:3000/image/AFEIlbYFEAQYACD8l6zWBSj0so6LAjDSATiEAkBm.png' lazy-load='true'  ></image>
+    <view>
+    <text class='img-text'>国内游 </text>
+    <text class='img-text'>走遍全国</text>
+    </view>
+    </view>
+    <view  >
+    <image src='http://127.0.0.1:3000/image/AFEIlbYFEAQYACD-l6zWBSiq8bV4MNIBOIQCQGY.png' lazy-load='true'    ></image>
+    <view>
+    <text class='img-text'>周边游</text>
+    <text class='img-text'>周末出游</text> 
+    </view>
+  </view>
+  </view>
+<view class='der'></view>
+<view>
+    <view class='Recommendview'>
+    <text>一</text>
+    近期推荐 
+    <text>一</text>
+    </view>
+  <view class='Recommend'>
+  <view class='border'>
+    <image src='http://127.0.0.1:3000/image/AFEIlbYFEAQYACD7mazWBSjFp6rsBjCKAjjHAUBm.png'></image>
+    <view class='fz-13'>双飞文化北京十日行</view>
+    <view >￥5600起</view>
+ </view>
+ <view class='border'>
+    <image src='http://127.0.0.1:3000/image/AFEIlbYFEAQYACD8mazWBSjQqJnPAzCKAjjIAUBm.png'></image>
+    <view  class='fz-13'>印象日本富士山行</view>
+    <view >￥4800起</view>
+  </view>
+  <view class='border'>
+    <image src='http://127.0.0.1:3000/image/AFEIlbYFEAQYACD5mazWBSiUoZDwATCKAjjHAUBm.png'></image>
+    <view  class='fz-13'>最美山城重庆三日游</view>
+    <view  >￥3680起</view>
+  </view>
+  </view>
+</view>
+<view class='der'></view>
+<view class='Strategy'>
+  <view class='Recommendview'>
+    <text>一</text>
+  旅游攻略
+  <text>一</text>
+  </view>
+</view>
+ <view class='mutil-graph-swiperC'>
+ <view class='img-wrapper' wx:for='{{list}}' wx:key='index'>
+   <image src='{{item.img_url}}' lazy-load='true' bindtap='handle1'></image>
+   <view>{{item.title}}</view>
+   </view>
+</view>
+<view class='footer-area'>亲~我也是有底线的</view>
+</view>

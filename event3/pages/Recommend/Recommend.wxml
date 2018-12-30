@@ -1,0 +1,47 @@
+<view>
+   <view class='img'>
+  <image src='http://127.0.0.1:3000/image/AFEIlbYFEAQYACCRnKzWBSjUk9CgATDuBTj8AkBm.png' lazy-load='true' class='car'></image>
+  </view>
+  <view class='der'></view>
+  <view class='Strategy'>
+  <view class='Recommendview'>
+    <text>一</text>
+  出境游
+  <text>一</text>
+  </view>
+</view>
+ <view class='mutil-graph-swiperC'>
+ <view class='img-wrapper' wx:for='{{list}}' wx:key='index'  >
+   <image src='{{item.img_url}}' lazy-load='true' bindtap='handle1'></image>
+   <view>{{item.title}}</view>
+   <view>{{item.price}}</view>
+   </view>
+</view>
+<view class='der'></view>
+<view class='Recommendview'>
+    <text>一</text>
+  国内游
+  <text>一</text>
+  </view>
+<view class='mutil-graph-swiperC'>
+ <view class='img-wrapper' wx:for='{{domestic}}' wx:key='index'>
+   <image src='{{item.img_url}}'></image>
+   <view>{{item.title}}</view>
+   <view>{{item.price}}</view>
+   </view>
+</view>
+<view class='der'></view>
+<view class='Recommendview'>
+    <text>一</text>
+  周边游
+  <text>一</text>
+  </view>
+<view class='mutil-graph-swiperC'>
+ <view class='img-wrapper' wx:for='{{periphery}}' wx:key='index'>
+   <image src='{{item.img_url}}'></image>
+   <view>{{item.title}}</view>
+   <view>{{item.price}}</view>
+   </view>
+</view>
+<view class='footer-area'>亲~我也是有底线的</view>
+</view>

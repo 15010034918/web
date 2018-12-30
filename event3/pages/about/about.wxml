@@ -1,0 +1,41 @@
+<view>
+   <view class='img'>
+  <image src='http://127.0.0.1:3000/image/AFEIlbYFEAQYACC4n6zWBSjUhqOSAjDuBTj8AkBm.png' lazy-load='true' class='car'></image>
+  </view>
+  <view class='der'></view>
+  <view class='Recommendview'>
+    <text>一</text>
+  关于我们
+  <text>一</text>
+  </view>
+  <view class='text'>
+    xxx国际旅行社有限公司成为一类国际旅游社，主营国内地接、入境接待国内出游、国际出境游、代办签证、修学旅行、商务考察、会务接待等业务项目，公司经营场所400平方米，在职职工100人，设有管理中心、财务中心、国内地接中心、国内出游中心、国际入境中心、中国公民出境中心、网络信息中心等。企业规模和经济实力以及经济效益已在xx市同行业排序前列。
+  </view>
+  <view class='fk-editor-line'> 
+  <view class='fk-editor-bd'>
+     <view class='bold'>600+</view>
+     <view>不同订制线路</view>
+  </view>
+ <view class='fk-editor-bd'>
+   <view class='bold'>5W+</view>
+   <view>每户每年订制</view>
+ </view>
+ <view class='fk-editor-bd'>
+   <view class='bold'>40+</view>
+   <view>不同合作企业</view>
+   </view>
+ </view>
+ <view class='der'></view>
+ <view class='Recommendview'>
+    <text>一</text>
+  联系我们
+  <text>一</text>
+  </view>
+  <view class='packModulesContainer'>
+    <view class='Telephone'>000-000000</view>
+    <view>XXX省XXX市XXX县XXX路XXX号</view>
+    <view>contact@fkadjkhf.cn</view>
+    <button class='wrapper'>立即咨询</button>
+  </view>
+  <view class='footer-area'>亲~我也是有底线的</view>
+</view>

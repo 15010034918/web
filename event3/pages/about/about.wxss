@@ -1,0 +1,43 @@
+.text{
+  font-size: 12px;
+  line-height: 29px;
+  padding:10px;
+}
+.fk-editor-line{
+  display: flex;
+  justify-content: space-between;
+}
+.fk-editor-bd{
+ font-size:13px;
+ padding:40rpx;
+}
+.bold{
+  font-size:20px;
+  font-weight: bold;
+  text-align:center;
+  margin-bottom: 20rpx;
+}
+.packModulesContainer{
+  text-align: center;
+  font-size: 12px;
+  padding: 20px;
+}
+.Telephone{
+  padding:20rpx;
+  font-size: 24px;
+  font-weight:bold;
+  font-style: italic;
+  color: rgb(57, 130, 247);
+}
+.Telephone~view{
+  padding-bottom: 20rpx;
+}
+.wrapper{
+  background: rgb(57, 130, 247);
+  font-size: 16px;
+  color: #fff;
+  width:250rpx;
+  height:60rpx;
+  line-height: 60rpx;
+  margin-bottom: 20px;
+}
